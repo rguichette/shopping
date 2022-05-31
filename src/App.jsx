@@ -4,6 +4,9 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
+import {Navbar, Footer,Sidebar,ThemeSettings } from './components'
+import {Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages'
+
 function App() {
   const activeMenu = true;
 
